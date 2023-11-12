@@ -1,0 +1,3 @@
+# Syntax highlighting for Telebot library
+
+Telebot	KEYWORD1
