@@ -1,3 +1,6 @@
 # Syntax highlighting for Telebot library
 
 Telebot	KEYWORD1
+MessageData KEYWORD2
+SendMessage KEYWORD3
+ReadMessage KEYWORD4

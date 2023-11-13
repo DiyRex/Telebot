@@ -24,6 +24,15 @@ void setup() {
 
     // Send a message
     telebot.SendMessage("Hello from NodeMCU!");
+    
+    // Read a message
+    Telebot::MessageData res = telebot.ReadMessage();
+  
+    // Print the message data
+    Serial.println("Update ID: " + String(res.updateId));
+    Serial.println("Chat ID: " + String(res.chatId));
+    Serial.println("Message ID: " + String(res.messageId));
+    Serial.println("Message: " + res.messageText);
 
     // Your other code here...
 }
